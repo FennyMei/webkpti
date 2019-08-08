@@ -1,0 +1,68 @@
+#cpanel{
+	width: 100%;
+	display: table;
+}
+
+.cphome{
+	width: 90%;
+	margin: 10px 1%;
+	padding: 40px 4%;
+	background-color: #FFFFFF;
+	float: left;
+	text-align: left;
+}
+
+#ctitle{
+	font-family: Kreon, serif;
+	font-size: 28pt;
+	text-decoration: none;
+	color: #47A3DA;
+	font-weight: 800;
+	margin-top: 0;
+	display: block;
+}
+
+.cphome pre{
+	font-family: 'Noticia Text', serif;
+	font-size: 16pt;
+	display: inline;
+}
+
+.datemonth{
+	width: 120px;
+}
+
+.dateyear{
+	width: 60px;
+}
+
+.cphome input, select, textarea{
+	font-family: 'Noticia Text', serif;
+	font-size: 14pt;
+	margin-bottom: 20px;
+	height: 30px;
+	width: 410px;
+}
+
+.cphome textarea.antimultirow{
+	max-width: 643px;
+	height: 110px;
+	width: 643px;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#csubtitle{
+	font-weight: 800;
+	font-size: 20pt;
+}
+
+#csubmit{
+	background-color: #FFFFFF;
+	height: 40px;
+	width: 643px;
+	border: 2px solid #47A3DA;
+}
